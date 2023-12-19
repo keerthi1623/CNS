@@ -100,7 +100,6 @@ public class Vigenerecipher{
 
         String plaintext = new String();
         plaintext = vc.vcdecryption(ciphertext);
-
         System.out.println();
         System.out.println("PLAIN TEXT :" + plaintext);
         sc.close();
